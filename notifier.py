@@ -60,6 +60,6 @@ if __name__ == '__main__':
 		pass
 
 	print('> Process ended')
-	if(send_message(config, "Process " + name + " ended.")):
+	if(send_message(config, "Process notifier: \nProcess " + name + " ended.")):
 		print("> Message sent")
 	exit(0)
